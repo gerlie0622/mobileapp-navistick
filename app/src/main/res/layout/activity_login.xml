@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/mobilebg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+    <ImageView
+        android:layout_width="251dp"
+        android:layout_height="231dp"
+        android:src="@drawable/NavistickLogo" />
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:ems="15"
+        android:fontFamily="@font/glacialindiferrence_regular"
+        android:hint="Email/Username"
+        android:inputType="textPersonName"
+        android:minHeight="50dp"
+        android:padding="10dp"
+        android:textColor="#9E9E9E" />
+
+    <EditText
+        android:id="@+id/loginpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:drawableStart="@drawable/ic_password"
+        android:drawablePadding="12dp"
+        android:ems="15"
+        android:fontFamily="@font/glacialindiferrence_regular"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="50dp"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/glacialindiferrence_regular"
+        android:text="SIGN IN"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/forgetpassbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:fontFamily="@font/glacialindiferrence_regular"
+        android:text="Forgot Password?"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/registerbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#7E686868"
+        android:fontFamily="@font/glacialindiferrence_regular"
+        android:text="SIGN UP"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+
+</LinearLayout>

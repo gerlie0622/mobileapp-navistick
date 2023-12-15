@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "93856975763",
+    "project_id": "navistick-b2bb3",
+    "storage_bucket": "navistick-b2bb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93856975763:android:b06902f7b6065442aeb666",
+        "android_client_info": {
+          "package_name": "com.company.navistick"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAef9orc0q1FaI9iaODnUERxiWCkmkfK54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
